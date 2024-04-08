@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('image.jpg') ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.form-card {
+    background: linear-gradient(rgb(0, 38, 255),rgb(31, 0, 145));
+}
+
+input[type="text"], input[type="password"]  {
+    width: 100%;
+    margin: 10px 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-color: whitesmoke;
+    border-width: 2px;
+}
+.img-container {
+    background: none;
+    width: 150px;
+    margin-top: 25px;
+    border-radius: 50%;
+}
+img {
+    border-radius: 50%;
+}
